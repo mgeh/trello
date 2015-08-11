@@ -158,7 +158,7 @@ var getBoard=function(board){
 			default:
 				date=new Date(text);
 			}
-			return date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate();
+			return date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear();
 		};
 	};
 	board.formatComments=function(){
